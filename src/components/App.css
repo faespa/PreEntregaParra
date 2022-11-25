@@ -1,0 +1,16 @@
+.titulo {
+    background-color: blueviolet;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+
+}
+.navbar-brand:hover {
+    color: red;
+    transition: 2s;
+}
+.navbar-brand  span{
+    color: yellow;
+}
