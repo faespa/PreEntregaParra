@@ -1,41 +1,14 @@
-.cardProducto {
-    width: 18rem;
-    margin: 4px;
-    background-color: hsl(0, 0%, 97%);
-}
-
-.cardBody {
-    background-color: white;
-    margin-bottom: 3px;
-    text-align: center;
-}
-
-img {
-    margin-top:3px;
-}
-
 .cardProductos {
-    margin: 4px;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
-.cartWidget {
-    position: relative;
-    right: 3%;
-    color:white;
-}
-
-.nav-item {
-    margin: 10px;
-}
-
-.cantCarrito {
-    position: relative;
-    left: 15%;
+.cardProducto {
+    width: 20rem;
+    margin: 1rem;
 }
 
 .itemDetail {
-    max-width: 540px;
+    max-width: 800px;
     margin-top: 20px;
 }

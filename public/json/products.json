@@ -1,122 +1,128 @@
 [
     {
         "id": 1,
-        "idCategoria": 1,
-        "nombre": "Notebook",
-        "marca": "Lenovo",
-        "modelo": "Y510P",
+        "idCategoria": 2,
+        "marca": "Bridgestone",
+        "modelo": "185/60R15",
         "precio": 60000,
         "stock": 30,
-        "img": "notebook-lenovo.jpg"
+        "img": "brid1.jpg"
     },
     {
         "id": 2,
         "idCategoria": 2,
-        "nombre": "Celular",
-        "marca": "Xiomi",
-        "modelo": "Mi-9",
+        "marca": "Bridgestone",
+        "modelo": "235/60R17",
         "precio": 35000,
         "stock": 20,
-        "img": "xiaomi-mi-9.jpg"
+        "img": "brid2.jpg"
     },
     {
         "id": 3,
-        "idCategoria": 3,
-        "nombre": "Smart Tv",
-        "marca": "Novatech",
-        "modelo": "50D1U",
+        "idCategoria": 2,
+        "marca": "Bridgestone",
+        "modelo": "205/65R16",
         "precio": 57000,
         "stock": 15,
-        "img": "smart-tv-novatech.jpg"
+        "img": "brid3.jpg"
     },
     {
         "id": 4,
-        "idCategoria": 4,
-        "nombre": "Camara ",
-        "marca": "iQual",
-        "modelo": "C40",
+        "idCategoria": 1,
+        "marca": "Dunlop",
+        "modelo": "225/55R16",
         "precio": 8000,
         "stock": 30,
-        "img": "camara-iqual.jpg"
+        "img": "dunlop1.jpg"
     },
     {
         "id": 5,
-        "idCategoria": 4,
-        "nombre": "Mouse",
-        "marca": "Logitech",
-        "modelo": "G502",
+        "idCategoria": 2,
+        "marca": "Dunlop",
+        "modelo": "215/65R17",
         "precio": 1400,
         "stock": 7,
-        "img": "mouse-logitech.jpg"
+        "img": "dunlop2.jpg"
     },
     {
         "id": 6,
-        "idCategoria": 4,
-        "nombre": "Auriculares",
-        "marca": "Motorola",
-        "modelo": "Pulse",
+        "idCategoria": 3,
+        "marca": "Maxxis",
+        "modelo": "285/65R16",
         "precio": 4000,
         "stock": 20,
-        "img": "motorola-pulse.jpg"
+        "img": "max1.jpg"
     },
     {
         "id": 7,
-        "idCategoria": 2,
-        "nombre": "Celular",
-        "marca": "Apple",
-        "modelo": "Iphone X Silver",
+        "idCategoria": 3,
+        "marca": "Maxxis",
+        "modelo": "305/60R16",
         "precio": 250000,
         "stock": 10,
-        "img": "iphone-x.jpg"
+        "img": "max2.jpg"
     },
     {
         "id": 8,
-        "idCategoria": 3,
-        "nombre": "Apple TV",
-        "marca": "Apple ",
-        "modelo": "32 Gb",
+        "idCategoria": 1,
+        "marca": "Maxxis",
+        "modelo": "205/50R15",
         "precio": 45000,
         "stock": 30,
-        "img": "apple-tv.jpg"
+        "img": "max3.jpg"
     },
     {
         "id": 9,
-        "idCategoria": 4,
-        "nombre": "Parlante",
-        "marca": "Kalley",
-        "modelo": "SPK200",
+        "idCategoria": 2,
+        "marca": "Maxxis",
+        "modelo": "225/55R17",
         "precio": 34000,
         "stock": 21,
-        "img": "parlante-kalley.png"
+        "img": "max4.jpg"
     },
     {
         "id": 10,
-        "idCategoria": 1,
-        "nombre": "Mac Air",
-        "marca": "Apple",
-        "modelo": "M1 2020",
+        "idCategoria": 3,
+        "marca": "Micky Thompsom",
+        "modelo": "285/65R16",
         "precio": 13000,
         "stock": 25,
-        "img": "mac-air.jpg"
+        "img": "mt1.jpg"
     },
     {
         "id": 11,
-        "idCategoria": 2,
-        "nombre": "Celular",
-        "marca": "Samsung",
-        "modelo": "S20",
+        "idCategoria": 3,
+        "marca": "Micky Thompsom",
+        "modelo": "305/60R16",
         "precio": 85000,
         "stock": 30,
-        "img": "samsung-s20.jpg"
+        "img": "mt2.jpg"
     },
     {
         "id": 12,
         "idCategoria": 1,
-        "nombre": "Notebook",
-        "marca": "HP",
-        "modelo": "Pavilion 15",
+        "marca": "Toyo",
+        "modelo": "195/65R15",
         "precio": 120000,
         "stock": 20,
-        "img": "hp-pavilion.jpg"
+        "img": "toyo1.jpg"
+    },
+    {
+        "id": 13,
+        "idCategoria": 1,
+        "marca": "Toyo",
+        "modelo": "245/40/R17",
+        "precio": 120000,
+        "stock": 20,
+        "img": "toyo2.jpg"
+    },
+    {
+        "id": 14,
+        "idCategoria": 4,
+        "marca": "MAC",
+        "modelo": "31O1350MG",
+        "precio": 320000,
+        "stock": 5,
+        "img": "bat.jpg"
     }
 ]

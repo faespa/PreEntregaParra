@@ -7,11 +7,11 @@ const ItemCount = ({stock}) => {
 
     const reduce = () => counter > 1 && setCounter(counter - 1);
   return (
-    <div>
-        <button className='btn btn-dark' onClick={() => add()}>+</button>
+    <div className=''>
+        <button className='btn btn-dark mx-1' onClick={() => reduce()}>-</button>
         {counter}
-        <button className='btn btn-dark' onClick={() => reduce()}>-</button>
-        <button className='btn btn-dark'>Add Car</button>
+        <button className='btn btn-dark mx-1' onClick={() => add()}>+</button>
+        <button className='btn btn-dark mx-1'>Add Car</button>
     </div>
   )
 }
