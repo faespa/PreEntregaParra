@@ -12,3 +12,17 @@
     max-width: 800px;
     margin-top: 20px;
 }
+
+.cardBodyDark {
+    background-color: hsl(0, 0%, 33%);
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.darkMode {
+    background-color:black;
+    color:gainsboro;
+}
+.bg-dark {
+    background-color: hsl(0, 0%, 33%);
+}

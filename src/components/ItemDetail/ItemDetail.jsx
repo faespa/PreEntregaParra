@@ -1,5 +1,11 @@
 import ItemCount from "../ItemCount/ItemCount";
 const ItemDetail = ({item}) => {
+
+    const onAdd = (contador) => {
+        console.log(contador)
+    }
+
+
     return (
         <div className="d-flex align-items-center ">
             <div className="">
@@ -10,7 +16,7 @@ const ItemDetail = ({item}) => {
                 <p className="card-text">Marca: {item.marca} </p>
                 <p className="card-text">Precio: $ {new Intl.NumberFormat('de-DE').format(item.precio)} </p>
                 <p className="card-text">Stock: {item.stock} </p>
-                <ItemCount stock= {item.stock}/><br/>
+                <ItemCount initial ={1} stock= {item.stock} onAdd={onAdd}/><br/>
                 <div className="text-center ">
                     <button className="btn btn-secondary ">Finalizar Compra</button>
                 </div>
