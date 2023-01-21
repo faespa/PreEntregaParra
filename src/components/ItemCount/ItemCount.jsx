@@ -11,7 +11,7 @@ const ItemCount = ({initial, stock, onAdd}) => {
   return (
     <div className=''>
         <button className='btn btn-dark mx-1' onClick={() => reduce()}>-</button>
-        {counter}
+          {counter}
         <button className='btn btn-dark mx-1' onClick={() => add()}>+</button>
         <button className='btn btn-dark mx-1' onClick={() => addCar()}>Add Car</button>
     </div>

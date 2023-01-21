@@ -1,13 +1,18 @@
 import { Link } from 'react-router-dom';
- 
+import { useCartContext } from '../../context/CarContext';
+
 const CartWidget = () => {
+    const {getItemQuantity} = useCartContext()
+
     return (
-        <ul className="navbar-nav">
-            <li className="nav-link d-flex align-items-center">
-                <button className='btn btn-primary'><Link className="nav-link" to={"/cart"}><i className="fas fa-shopping-cart fa-lg"></i></Link></button>
-                <p className="m-0">0</p>
-            </li>
-        </ul>
+        <>
+            <button className='btn btn-primary'>
+                <Link className="nav-link" to={"/cart"}>
+                    <i className="fas fa-shopping-cart fa-lg"></i>
+                    {getItemQuantity() > 0 && <span className='cantCarrito'>getItemQuantity()</span>}
+                </Link>
+            </button>
+        </>
     );
 }
 

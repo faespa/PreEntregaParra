@@ -22,4 +22,4 @@ export const DarkModeProvider = (props) => {
     )
 }
 
-export {DarkModeContext}
+/*export {DarkModeContext}*/

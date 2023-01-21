@@ -42,7 +42,6 @@ export const Checkout = () => {
                 </div>
                 <button type="submit" className="btn btn-primary">Finalizar Compra</button>
             </form>
-
         </div>
     );
 }
