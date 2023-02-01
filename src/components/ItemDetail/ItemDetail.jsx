@@ -5,7 +5,7 @@ import { useCartContext } from "../../context/CarContext";
 const ItemDetail = ({item}) => {
 
     const {addItem} = useCartContext()
-    
+
     const onAdd = (contador) => {
         addItem(item, contador)
     }

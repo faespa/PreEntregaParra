@@ -25,30 +25,30 @@ export const CartProvider = (props) => {
             }
             setCart([...cart, newProduct]);
         }
-
-        const emptyCart =() => {
-            setCart([])
-        }
-
-        const removeItem = (id) => {
-            // const aux = [...carrito];
-            // const inidie = aux.findIndex(prod => prod.id ==id);
-            // setCar(aux.splice(indice,1));
-            setCart(cart.filter(prod => prod.id !== id));
-        }
-
-        const getItemQuantity = () => {
-            return cart.reduce((acum, prod) => acum += prod.cant, 0);    
-        }
-
-        const totalPrice = () => {
-            return cart.reduce((acum, prod) => acum += (prod.cant * prod.precio), 0);
-        }
-
-        return (
-            <CartContext.Provider value={{cart, isInCart, addItem, removeItem, emptyCart, getItemQuantity, totalPrice}}>
-                {props.children}
-            </CartContext.Provider>
-        )
     }
+
+    const emptyCart =() => {
+        setCart([])
+    }
+
+    const removeItem = (id) => {
+        // const aux = [...carrito];
+        // const inidie = aux.findIndex(prod => prod.id ==id);
+        // setCar(aux.splice(indice,1));
+        setCart(cart.filter(prod => prod.id !== id));
+    }
+
+    const getItemQuantity = () => {
+        return cart.reduce((acum, prod) => acum += prod.cant, 0);    
+    }
+
+    const totalPrice = () => {
+        return cart.reduce((acum, prod) => acum += (prod.cant * prod.precio), 0);
+    }
+
+    return (
+        <CartContext.Provider value={{cart, isInCart, addItem, removeItem, emptyCart, getItemQuantity, totalPrice}}>
+            {props.children}
+        </CartContext.Provider>
+    )
 }

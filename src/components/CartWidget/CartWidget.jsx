@@ -9,7 +9,7 @@ const CartWidget = () => {
             <button className='btn btn-primary'>
                 <Link className="nav-link" to={"/cart"}>
                     <i className="fas fa-shopping-cart fa-lg"></i>
-                    {getItemQuantity() > 0 && <span className='cantCarrito'>getItemQuantity()</span>}
+                    {getItemQuantity() > 0 && <span className='cantCarrito'>{getItemQuantity()}</span>}
                 </Link>
             </button>
         </>
