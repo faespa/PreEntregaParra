@@ -12,7 +12,7 @@ const ItemDetail = ({item}) => {
     return (
         <div className="d-flex align-items-center ">
             <div className="">
-                <img src={`../img/${item.img}`} alt="" className="img-fluid rounded-start"/>
+                <img src={`${item.img}`} alt="" className="img-fluid rounded-start"/>
             </div>
             <div className="mx-auto">
                 <h3 className="card-text">Modelo: {item.modelo} </h3>

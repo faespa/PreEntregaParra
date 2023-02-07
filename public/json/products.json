@@ -6,7 +6,7 @@
         "modelo": "185/60R15",
         "precio": 60000,
         "stock": 30,
-        "img": "brid1.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/brid1.jpg?alt=media&token=26fdcc86-a486-4593-87e3-15076e94fa94"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "modelo": "235/60R17",
         "precio": 35000,
         "stock": 20,
-        "img": "brid2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/brid2.jpg?alt=media&token=e4d52c24-9264-41f7-b287-a91f35ee96c8"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "modelo": "205/65R16",
         "precio": 57000,
         "stock": 15,
-        "img": "brid3.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/brid3.jpg?alt=media&token=bcc91bf1-d901-4b55-8832-d0c8c38be71f"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "modelo": "225/55R16",
         "precio": 8000,
         "stock": 30,
-        "img": "dunlop1.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/dunlop1.jpg?alt=media&token=3c05122e-8e7b-4837-8277-0ce4a2a234e9"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "modelo": "215/65R17",
         "precio": 1400,
         "stock": 7,
-        "img": "dunlop2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/dunlop2.jpg?alt=media&token=6a08ef6a-85f8-4074-9ecc-59c3466f25ad"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "modelo": "285/65R16",
         "precio": 4000,
         "stock": 20,
-        "img": "max1.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/max1.jpg?alt=media&token=0a490056-c79b-4210-aa60-0ec5815aa827"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "modelo": "305/60R16",
         "precio": 250000,
         "stock": 10,
-        "img": "max2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/max2.jpg?alt=media&token=6a08867f-ea76-4888-89b8-e0ab6eb8ae60"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "modelo": "205/50R15",
         "precio": 45000,
         "stock": 30,
-        "img": "max3.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/max3.jpg?alt=media&token=63311712-86d5-45e8-939b-103f7e22face"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "modelo": "225/55R17",
         "precio": 34000,
         "stock": 21,
-        "img": "max4.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/max4.jpg?alt=media&token=6227839c-e62e-4147-b6a0-3c1b1ad9d3e6"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "modelo": "285/65R16",
         "precio": 13000,
         "stock": 25,
-        "img": "mt1.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/mt1.jpg?alt=media&token=57a603c3-9981-488a-8f7f-1d7fa7d52845"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "modelo": "305/60R16",
         "precio": 85000,
         "stock": 30,
-        "img": "mt2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/mt2.jpg?alt=media&token=13b15c5c-62b1-42e1-92e7-5939ba393ca8"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "modelo": "195/65R15",
         "precio": 120000,
         "stock": 20,
-        "img": "toyo1.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/toyo1.jpg?alt=media&token=e779dde6-2b8a-490d-8f83-0ba0ff1eac78"
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "modelo": "245/40/R17",
         "precio": 120000,
         "stock": 20,
-        "img": "toyo2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/toyo2.jpg?alt=media&token=3eda8936-d1f1-4778-8a2b-1854a13f1e93"
     },
     {
         "id": 14,
@@ -123,6 +123,6 @@
         "modelo": "31O1350MG",
         "precio": 320000,
         "stock": 5,
-        "img": "bat.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-1dfcf.appspot.com/o/bat.jpg?alt=media&token=c38541ec-7e1a-4cff-b49f-668fb4b74abe"
     }
 ]
